@@ -74,7 +74,25 @@ img {
     max-width: 100%;
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-radius: 100px;
+}
+
+.section_introduccion h1 span{
+    color: #FFA500;
+}
+
 .section_dandoleFlores p span {
+    color: #FFA500;
+}
+
+.section_añoPasado p span {
+    color: #FFA500;
+}
+
+.div_imagenNosotros p span {
     color: #FFA500;
 }
 
@@ -93,7 +111,7 @@ img {
 .button_teamo{
     background-color: #FFA500;
     padding: 8px 16px 8px 8px;
-    width: 116px;
+    width: 166px;
     height: 40px;
     border-radius: 100px;
     cursor: pointer;

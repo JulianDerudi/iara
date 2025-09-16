@@ -21,7 +21,7 @@ header {
     height: 85px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    
+    z-index: 1000;
     
 }
 
@@ -79,6 +79,7 @@ img:hover {
     transition: transform 0.3s ease;
     border-radius: 100px;
 }
+
 
 .section_introduccion h1 span{
     color: #FFA500;

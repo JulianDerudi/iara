@@ -1,0 +1,121 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(img/fondoDeBody.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 20px 40px;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_header_celu{
+    display: none;
+}
+
+@media (max-width: 645px) {
+    .div_header_compu{
+        display: none;
+    }
+
+    .div_header_celu{
+        display: flex;
+    }
+}
+
+
+
+header img{
+    height: 45px;
+    margin-right: 20px;
+}
+
+header span {
+    font-size: 34px;
+    color: #FFA500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 100vh;
+}
+
+main section{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section_dandoleFlores p span {
+    color: #FFA500;
+}
+
+.section_LandoLeDaLasFlores p span {
+    color: #FFA500;
+}
+
+.section_despedida p span {
+    color: #FFA500;
+}
+
+
+
+
+
+.button_teamo{
+    background-color: #FFA500;
+    padding: 8px 16px 8px 8px;
+    width: 116px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    gap: 8px;
+    justify-content: center;
+    line-height: 24px;
+    border: none;
+    text-align: center;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    white-space: nowrap;
+}
+
+.button_teamo span{
+    width: 136px;
+    height: 24px;
+    color: white;
+    font-size: 14px;
+
+}
